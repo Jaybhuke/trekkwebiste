@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+}
+h4 {
+  color: white;
+  font-size: 35px;
+}
+
+.carousel {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.carousel-inner {
+  height: 500px;
+  /* Fixed height for carousel */
+}
+
+.carousel-item {
+  height: 100%;
+  /* Make items fill carousel height */
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* Makes images cover the area without distortion */
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+  /* align-items: center; */
+  max-width: 1200px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* .youtube {
+        padding: 20px;
+        margin-bottom: 10px;
+      } */
+
+.card {
+  width: 380px;
+  background-color: #1a626c;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* .card-img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border: none;
+        border-radius: 5px;
+      } */
+
+/* .card-content{
+        padding: 15px;
+        flex-direction: column;
+        color: antiquewhite;
+      } */
+
+.thumb {
+  border: none;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px;
+  color: antiquewhite;
+}
+
+/* .card-button{
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        color: aliceblue;
+        background-color: #6326cd5a;
+      } */
+
+/* .card-btn-a {
+        text-decoration: none;
+        color: antiquewhite;
+      
+      } */
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    width: 95%;
+  }
+  .carousel-caption h4 {
+    font-size: 24px;
+  }
+  .carousel-caption p {
+    font-size: 18px;
+  }
+}
